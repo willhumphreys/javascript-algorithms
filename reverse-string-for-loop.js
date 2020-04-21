@@ -8,4 +8,15 @@ function reverse(text) {
   return result;
 }
 
+function reverseShort(text) {
+  let result = "";
+
+  for (let char of text) {
+    result = char + result;
+  }
+
+  return result;
+}
+
 console.log(reverse("Hello"));
+console.log(reverseShort("Hello"));
