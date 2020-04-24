@@ -14,3 +14,6 @@ reverse one line spread
 reverse for loop
 reverse short for loop
 reverse recursion
+reverse reduce
+
+count vowels iterative
