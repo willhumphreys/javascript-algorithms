@@ -17,3 +17,4 @@ reverse recursion
 reverse reduce
 
 count vowels iterative
+coutn vowels regex
