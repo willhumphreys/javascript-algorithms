@@ -1,38 +1,38 @@
-// reverse one line
+// 1 reverse one line
 
 function reverse(text) {}
 
-console.log(reverse("Hello"));
+console.log(`1: Reverse one line:  ${reverse("Hello")}`);
 
 // reverse one line spread
 
 function reverseSpread(text) {}
 
-console.log(reverseSpread("Hello"));
+console.log(`2: Reverse spread: ${reverseSpread("Hello")}`);
 
 // reverse for loop
 
 function reverseLoop(text) {}
 
-console.log(reverseLoop("Hello"));
+console.log(`3: Reverse loop: ${reverseLoop("Hello")}`);
 
 // reverse short for loop
 
 function reverseLoopShort(text) {}
 
-console.log(reverseLoopShort("Hello"));
+console.log(`4: Reverse loop short: ${reverseLoopShort("Hello")}`);
 
 // reverse recursion
 
 function reverseRecursion(text) {}
 
-console.log(reverseRecursion("Hello"));
+console.log(`5: Reverse recursion: ${reverseRecursion("Hello")}`);
 
 // reverse reduce
 
 function reverseReduce(text) {}
 
-console.log(reverseReduce("Hello"));
+console.log(`6: Reverse reduce: ${reverseReduce("Hello")}`);
 
 // count vowels iterative
 
@@ -40,16 +40,16 @@ const vowels = ["a", "e", "i", "o", "u"];
 
 function countVowels(text) {}
 
-console.log(countVowels("Hello"));
+console.log(`7: Count vowels: ${countVowels("Hello")}`);
 
 // count vowels regex
 
 function countVowelsRegex(text) {}
 
-console.log(countVowelsRegex("Hello"));
+console.log(`8: Count vowels regex: ${countVowelsRegex("Hello")}`);
 
 // find the most recurring character character map
 
 function mostRecurringForIn(text) {}
 
-console.log(mostRecurringForIn("Hello"));
+console.log(`9: Most recurring letter: ${mostRecurringForIn("Hello")}`);
