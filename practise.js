@@ -53,3 +53,9 @@ console.log(`8: Count vowels regex: ${countVowelsRegex("Hello")}`);
 function mostRecurringForIn(text) {}
 
 console.log(`9: Most recurring letter: ${mostRecurringForIn("Hello")}`);
+
+function mostRecurringUsingArrays(text) {}
+
+console.log(
+  `10: Most recurring using Arrays ${mostRecurringUsingArrays("Hello")}`
+);
