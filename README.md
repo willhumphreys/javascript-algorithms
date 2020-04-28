@@ -21,4 +21,9 @@ coutn vowels regex
 
 ## Most recurring character
 
-most-recurring-character-for-in
+most recurring character for in
+most recurring letter using Arrays
+
+## Capitalize each word in a sentence
+
+capitalize each word in sentence using for
