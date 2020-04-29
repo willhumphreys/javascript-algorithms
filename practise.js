@@ -122,24 +122,7 @@ function mostRecurringForIn(text) {
 
 console.log(`9: Most recurring letter: ${mostRecurringForIn("Hello")}`);
 
-function mostRecurringUsingArrays(text) {
-  const charMap = {};
-
-  for (c of text) {
-    if (charMap.hasOwnProperty(c)) {
-      charMap[c]++;
-    } else {
-      charMap[c] = 1;
-    }
-  }
-
-  const values = Object.values(charMap);
-  const keys = Object.keys(charMap);
-
-  const maxValue = Math.max(...values);
-
-  return keys[values.indexOf(maxValue)];
-}
+function mostRecurringUsingArrays(text) {}
 
 console.log(
   `10: Most recurring using Arrays ${mostRecurringUsingArrays("Hello")}`
