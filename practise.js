@@ -1,64 +1,36 @@
 // 1 reverse one line
 
-function reverse(text) {
-  return text.split("").reverse().join("");
-}
+function reverse(text) {}
 
 console.log(`1: Reverse one line:  ${reverse("Hello")}`);
 
 // reverse one line spread
 
-function reverseSpread(text) {
-  return [...text].reverse().join("");
-}
+function reverseSpread(text) {}
 
 console.log(`2: Reverse spread: ${reverseSpread("Hello")}`);
 
 // reverse for loop
 
-function reverseLoop(text) {
-  let result = "";
-
-  for (x = text.length - 1; x >= 0; x--) {
-    result = text[x] + result;
-  }
-
-  return result;
-}
+function reverseLoop(text) {}
 
 console.log(`3: Reverse loop: ${reverseLoop("Hello")}`);
 
 // reverse short for loop
 
-function reverseLoopShort(text) {
-  let result = "";
-
-  for (char of text) {
-    result = char + result;
-  }
-
-  return result;
-}
+function reverseLoopShort(text) {}
 
 console.log(`4: Reverse loop short: ${reverseLoopShort("Hello")}`);
 
 // reverse recursion
 
-function reverseRecursion(text) {
-  if (text === "") {
-    return "";
-  }
-
-  return reverseRecursion(text.substr(1)) + text[0];
-}
+function reverseRecursion(text) {}
 
 console.log(`5: Reverse recursion: ${reverseRecursion("Hello")}`);
 
 // reverse reduce
 
-function reverseReduce(text) {
-  return [...text].reduce((acc, x) => x + acc, "");
-}
+function reverseReduce(text) {}
 
 console.log(`6: Reverse reduce: ${reverseReduce("Hello")}`);
 
@@ -66,59 +38,19 @@ console.log(`6: Reverse reduce: ${reverseReduce("Hello")}`);
 
 const vowels = ["a", "e", "i", "o", "u"];
 
-function countVowels(text) {
-  let count = 0;
-
-  for (char of text) {
-    if (vowels.includes(char.toLowerCase())) {
-      count++;
-    }
-  }
-
-  return count;
-}
+function countVowels(text) {}
 
 console.log(`7: Count vowels: ${countVowels("Hello")}`);
 
 // count vowels regex
 
-function countVowelsRegex(text) {
-  const matches = text.match(/[aeiou]/gi);
-
-  if (matches) {
-    return matches.length;
-  }
-
-  return 0;
-}
+function countVowelsRegex(text) {}
 
 console.log(`8: Count vowels regex: ${countVowelsRegex("Hello")}`);
 
 // find the most recurring character character map
 
-function mostRecurringForIn(text) {
-  const charMap = {};
-
-  for (char of text) {
-    if (charMap.hasOwnProperty(char)) {
-      charMap[char]++;
-    } else {
-      charMap[char] = 1;
-    }
-  }
-
-  let maxCount = 0;
-  let maxChar = "";
-
-  for (c in charMap) {
-    if (charMap[c] > maxCount) {
-      maxChar = c;
-      maxCount = charMap[c];
-    }
-  }
-
-  return maxChar;
-}
+function mostRecurringForIn(text) {}
 
 console.log(`9: Most recurring letter: ${mostRecurringForIn("Hello")}`);
 
