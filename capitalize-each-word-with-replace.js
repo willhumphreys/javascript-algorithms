@@ -1,9 +1,7 @@
 function capitalize(text) {
   return text
     .split(" ")
-    .map((word) => {
-      return word.replace(word[0], word[0].toUpperCase());
-    })
+    .map((word) => word.replace(word[0], word[0].toUpperCase()))
     .join(" ");
 }
 
