@@ -83,3 +83,18 @@ console.log(
     "hello. how are you"
   )}`
 );
+
+// 14 Check for palindrome using reverse
+
+function checkForPalindromeUsingReverse(text) {}
+
+const notAPalindrome = "Hello";
+const isAPalindrome = "madam";
+
+console.log(
+  `Using reverse '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingReverse(
+    notAPalindrome
+  )} but '${isAPalindrome}' is: ${checkForPalindromeUsingReverse(
+    isAPalindrome
+  )}`
+);
