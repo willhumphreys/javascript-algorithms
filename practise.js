@@ -73,3 +73,13 @@ console.log(`11 Capitalize words for:  ${capitalizeFor("hello. how are you")}`);
 function capitalizeMap(text) {}
 
 console.log(`12 Capitalize words for:  ${capitalizeMap("hello. how are you")}`);
+
+// 13 Capitalize each letter using replace
+
+function capitalizeUsingReplace(text) {}
+
+console.log(
+  `13 Capitalize words with replace:  ${capitalizeUsingReplace(
+    "hello. how are you"
+  )}`
+);
