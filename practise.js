@@ -38,7 +38,14 @@ console.log(`6: Reverse reduce: ${reverseReduce("Hello")}`);
 
 const vowels = ["a", "e", "i", "o", "u"];
 
-function countVowels(text) {}
+function countVowels(text) {
+  const matches = text.match(/[aeiou]/gi);
+
+  if (matches) {
+    return matches.length;
+  }
+  return 0;
+}
 
 console.log(`7: Count vowels: ${countVowels("Hello")}`);
 
@@ -97,4 +104,14 @@ console.log(
   )} but '${isAPalindrome}' is: ${checkForPalindromeUsingReverse(
     isAPalindrome
   )}`
+);
+
+// 14 Check for palindrome using every
+
+function checkForPalindromeUsingEvery(text) {}
+
+console.log(
+  `Using reverse '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEvery(
+    notAPalindrome
+  )} but '${isAPalindrome}' is: ${checkForPalindromeUsingEvery(isAPalindrome)}`
 );
