@@ -121,7 +121,9 @@ console.log(
 function checkForPalindromeUsingEveryOptimized(text) {}
 
 console.log(
-  `Using optimized for '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEvery(
+  `Using optimized for '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEveryOptimized(
     notAPalindrome
-  )} but '${isAPalindrome}' is: ${checkForPalindromeUsingEvery(isAPalindrome)}`
+  )} but '${isAPalindrome}' is: ${checkForPalindromeUsingEveryOptimized(
+    isAPalindrome
+  )}`
 );
