@@ -111,7 +111,17 @@ console.log(
 function checkForPalindromeUsingEvery(text) {}
 
 console.log(
-  `Using reverse '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEvery(
+  `Using every '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEvery(
+    notAPalindrome
+  )} but '${isAPalindrome}' is: ${checkForPalindromeUsingEvery(isAPalindrome)}`
+);
+
+// 15 Check for palindrome using every
+
+function checkForPalindromeUsingEveryOptimized(text) {}
+
+console.log(
+  `Using optimized for '${notAPalindrome}' is not a Palindrome: ${checkForPalindromeUsingEvery(
     notAPalindrome
   )} but '${isAPalindrome}' is: ${checkForPalindromeUsingEvery(isAPalindrome)}`
 );

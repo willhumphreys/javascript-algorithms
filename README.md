@@ -29,3 +29,9 @@ most recurring letter using Arrays
 capitalize each word in sentence using for
 capitalize each word using map
 capitalize each word using replace
+
+## Palindrome
+
+using reverse
+using every
+using optimized for
